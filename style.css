@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(icons/hero.jpg);
+    /* background-image: url(icons/hero.jpg); */
+    height: 80vh;
+    
+    
+}
+
+.flex{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around  ;
+    text-align: center;
+}
+.primary-btn{
+    background-color: red;
+    color: white;
+    border-style: ridge;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+.secondary-btn{
+    background-color: transparent;
+    border: 0.5px  white;
+    border-style: solid;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+.background img{
+    width: 100vw;
+    
+}
+.navbar{
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 900px;
+}
+
+
+.logo{
+    width: 150px;
+}
+.topbtns{
+    gap: 20px;
+}
+
+
+.lng-icon img{
+    width: 15px;
+}
+.lng-icon{
+    font-size: 0.7rem;
+}
+/* login section */
+.login-section{
+    justify-content: center;
+}
+input[type="text"] {
+  background: transparent;
+  border: none;
+}
+
+.heading h1{
+    font-size: 3.4rem;
+    
+}
+
+.top-padding{
+    padding-top: 130px;
+}
+.top-padding-h3{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.login-para{
+    font-size: 0.8rem;
+    padding-bottom: 20px;
+}
+
+
+.email-secn{
+    gap: 100px;
+}
+.email-secn input{
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    padding: 20px;
+    padding-right: 170px;
+    border-radius: 6px;
+    gap: 20px;
+    border: 1px solid white;
+    
+}
+.email-secn input:hover{
+    cursor: pointer;
+}
+.email-secn button{
+    font-size: 1rem;
+    padding: 20px 30px;
+    
+    
+}
+.trending{
+    flex-direction: column;
+    justify-content: left;
+}
+.trending h2{
+    font-size: 1.5rem;
+    padding-left: 150px;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    font-weight: 600;
+
+}
+.movies{
+    gap: 10px;
+    justify-content: center;
+}
+.movie-elements img{
+    border-radius: 10px;
+
+}
+.movie-elements img:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease;
+}
+.reasons{
+    flex-direction: column;
+    justify-content: left;
+}
+.reasons h2{
+    font-size: 1.5rem;
+    padding-left: 150px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-weight: 600;
+
+}
+.boxes{
+    justify-content: center;
+    gap: 20px;
+}
+.box{
+    width: 293px;
+    height: 278px;
+    justify-content: flex-start;
+    background: linear-gradient(to right bottom, rgba(23, 40, 79, 0.8), rgba(229, 9, 20, 0.1));
+    border-radius: 15px;
+    
+
+}
+
+.box h3{
+    text-align: left;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.box p{
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+.box img{
+    width: 260px;
+    text-align: start;
+    padding-top: 30px;
+    padding-left: 200px;
+}
+.padding-watch p{
+    padding-bottom: 38px;
+}
+.ready{
+    text-align: center;
+}
+.intro-ready{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 0.9rem;
+}
+.intro-email-secn{
+    gap: 100px;
+}
+.intro-email-secn input{
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    padding: 20px;
+    padding-right: 420px;
+    border-radius: 6px;
+    gap: 20px;
+    border: 1px solid white;
+}
+.intro-email-secn input:hover{
+    cursor: pointer;
+}
+.intro-email-secn button{
+    font-size: 1rem;
+    padding: 20px 30px;
+    
+    
+}
+.footer-list{
+    justify-content: left;
+    gap: 200px  ;
+    padding-left: 150px ;
+}
+.footer-list li{
+    font-size: 0.8rem;
+}
+.footer{
+    flex-direction: column;
+    justify-content: left;
+    
+}
+.footer p{
+    font-size: 1rem;
+    padding-left: 150px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-weight: 400;
+
+}
+.footer-lng-icon img{
+    width: 15px;
+    
+}
+.footer-lng-icon{
+    font-size: 0.7rem;
+    display: inline;
+}
+.footerpadding{
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.bottom-line{
+    padding-bottom: 100px;
+}
+.copyright{
+    font-size: 0.8rem;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    
+    
+}
