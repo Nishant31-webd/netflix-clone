@@ -1,0 +1,192 @@
+body{
+    font-family: "Roboto", sans-serif;;
+}
+h1, h2{
+    font-family: "Roboto Slab", serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+                              /* utility */
+
+.flex{
+    display: flex;
+    align-items: center;
+    
+}
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(57, 140, 235);
+    transition: 0.5s;
+    font-weight: 400;
+}
+.button:hover{
+    background-color: rgb(52, 183, 226);
+    font-weight: 700;
+    
+}
+ul{list-style-type: none;}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+                            /* top bar */
+.nav-margin{
+    justify-content: space-between;
+}
+.nav-margin img{
+      width: 80px;
+}
+.top-bar{
+    font-weight: 700;
+    font-size: 1.5rem;
+   
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 50px 40px;
+    
+}
+.link{
+    color: rgb(rgb(57, 140, 235));
+    transition: 0.5s;
+
+}
+.link:hover{
+    color: rgb(52, 183, 226);
+
+}
+    
+    
+                                           /* intro */
+
+.heading{
+    flex-direction: column;
+    padding-top: 30px;
+    font-size: 2.5rem;
+}
+
+.sub-heading{
+    font-size: 1.7rem;
+    padding-top: 0;
+}
+.heading-para{
+    padding: 20px;
+    font-size: 1.3rem;
+}
+.icons-div{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.icons img{
+    width: 40px;
+}
+.icons{
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+    transition: 0.5s;
+}
+.icons:hover{
+    transform: scale(1.2);
+}
+                          /* education */
+.education-main{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.education-header{
+    padding-top: 40px;
+    padding-bottom: 25px;
+
+}
+.education-row{
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 150px;
+    border: 1px solid   black;
+    border-radius: 10px;
+    
+}
+.education-section{
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 0px;
+}
+.education-section img{
+    height: 250px;
+    width: 400px;
+    
+    
+}
+.institute-name{
+    padding-top: 20px;
+}
+.education-section img:hover{
+
+    transform: scale(1.1);
+    transition: 0.1s    ease-in-out;
+    border-radius: 10px 10px;
+    
+    
+}
+                                    /* projects */
+
+.project-main{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-header{
+    padding-top: 40px;
+    padding-bottom: 25px;
+
+}
+.project-row{
+    flex-direction: row;
+    gap: 100px;
+    border: 1px solid   black;
+    border-radius: 10px;
+}
+.project-contents{
+    flex-direction: column;
+    padding: 20px;
+}
+.project-contents img{
+    width: 300px;
+}
+
+                        /* contact */
+.contact-main{
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+   
+    
+    
+}
+.contact-row{
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid   black;
+    border-radius: 10px;
+    
+    
+}
+.contact-contents{
+    flex-direction: row;
+    padding: 50px 100px;
+}
+.contact-contents img{
+    max-width: 40px;
+}
